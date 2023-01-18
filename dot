@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <style>
+        #figureBlock{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+    </style>
+    <body>
+        <div id = "figureBlock"></div>
+        <script>
+            
+            figureBlock.addEventListener("click",
+            function(){
+                figureBlock.style.borderRadius = "50%";
+                figureBlock.style.backgroundColor = "rgb(30, 255, 0)";
+
+            }
+            )
+        
+        </script>
+    </body>
+</html>
